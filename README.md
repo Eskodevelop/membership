@@ -1,4 +1,4 @@
-# Membership1
+# Membership application ( backend and frontend )
 ## Short description
 
 Membership App is full MERN ( Mongo, Express, ReactJS, NodeJS) stack backend web application. We built this part of app with CRUD operations and authentication-authorization (AUTH) capabilities.
