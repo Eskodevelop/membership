@@ -44,4 +44,4 @@ Membership App is full MERN ( Mongo, Express, ReactJS, NodeJS) stack backend web
 1. Clone repository: https://github.com/Eskodevelop/membership1
 2. Install npm packages: npm install
 3. Run application on the web browser: npm start (http://localhost:5000/)
-4. After run application, use postman to check the database..
+4. After run application, use postman to check the database.
