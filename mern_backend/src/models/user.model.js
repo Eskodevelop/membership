@@ -37,7 +37,7 @@ UserSchema.virtual("password")
     this.salt = this.makeSalt();
     this.hashed_password = this.encryptPassword(password);
   })
-  .get(() => {
+  .get(function () {
     return this._password;
   });
 
@@ -71,4 +71,4 @@ UserSchema.path("hashed_password").validate(function (v) {
   }
 }, null);
 
-export default mongoose.model('User', UserSchema);
+export default mongoose.model("User", UserSchema);
